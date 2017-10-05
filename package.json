@@ -1,0 +1,13 @@
+{
+  "name": "rdf-jsonld-transformation-test1",
+  "version": "0.0.1",
+  "description": "Testing RDF to JSON-LD transformation",
+  "main": "main.js",
+  "author": "Michael Steidl/NewsIT",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^4.0.0",
+    "jsonld": "^0.4.12",
+    "n3": "^0.11.2"
+  }
+}
