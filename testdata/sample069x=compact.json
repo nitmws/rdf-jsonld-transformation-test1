@@ -11,14 +11,8 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "schema": "http://schema.org/",
     "cc": "http://creativecommons.org/ns#",
-    "uid": {
-      "@type": "@id",
-      "@id": "@id"
-    },
-    "type": {
-      "@type": "@id",
-      "@id": "@type"
-    },
+    "uid": "@id",
+    "type": "@type",
     "Policy": "odrl:Policy",
     "Rule": "odrl:Rule",
     "profile": {
@@ -306,40 +300,38 @@
   },
   "@graph": [
     {
-      "undefined": "_:b0",
+      "uid": "_:b0",
       "action": "odrl:DELETE",
       "consequence": "_:b1",
       "target": "http://example.com/document:XZY"
     },
     {
-      "undefined": "_:b1",
+      "uid": "_:b1",
       "action": "_:b2"
     },
     {
-      "undefined": "_:b2",
+      "uid": "_:b2",
       "rdf:value": {
-        "undefined": "odrl:compensate"
+        "uid": "odrl:compensate"
       },
       "compensatedParty": "http://wwf.org",
       "refinement": "_:b3"
     },
     {
-      "undefined": "_:b3",
+      "uid": "_:b3",
       "leftOperand": "payAmount",
       "operator": "eq",
       "rightOperand": {
-        "undefined": "xsd:decimal",
+        "type": "xsd:decimal",
         "@value": "10.00"
       },
       "unit": {
-        "undefined": "http://dbpedia.org/resource/Euro"
+        "uid": "http://dbpedia.org/resource/Euro"
       }
     },
     {
-      "undefined": [
-        "http://odrlapi.appspot.com/samples/sample069x",
-        "Agreement"
-      ],
+      "uid": "http://odrlapi.appspot.com/samples/sample069x",
+      "type": "Agreement",
       "assignee": "http://example.com/person:44",
       "assigner": "http://example.com/org:43",
       "obligation": "_:b0",

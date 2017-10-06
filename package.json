@@ -1,6 +1,6 @@
 {
   "name": "rdf-jsonld-transformation-test1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing RDF to JSON-LD transformation",
   "main": "main.js",
   "author": "Michael Steidl/NewsIT",
