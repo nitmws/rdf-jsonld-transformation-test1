@@ -1,0 +1,96 @@
+[
+  {
+    "@id": "_:b4",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/document:XZY"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/delete"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/consequence": [
+      {
+        "@id": "_:b5"
+      }
+    ]
+  },
+  {
+    "@id": "_:b5",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "_:b6"
+      }
+    ]
+  },
+  {
+    "@id": "_:b6",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/compensate"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/compensatedParty": [
+      {
+        "@id": "http://wwf.org"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/refinement": [
+      {
+        "@id": "_:b7"
+      }
+    ]
+  },
+  {
+    "@id": "_:b7",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/payAmount"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/eq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "10.00",
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/unit": [
+      {
+        "@id": "http://dbpedia.org/resource/Euro"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample069x",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:09"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org:43"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/person:44"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/obligation": [
+      {
+        "@id": "_:b4"
+      }
+    ]
+  }
+]

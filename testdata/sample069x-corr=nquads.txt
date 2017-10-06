@@ -1,0 +1,16 @@
+<http://odrlapi.appspot.com/samples/sample069x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample069x> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:09>.
+<http://odrlapi.appspot.com/samples/sample069x> <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org:43>.
+<http://odrlapi.appspot.com/samples/sample069x> <http://www.w3.org/ns/odrl/2/assignee> <http://example.com/person:44>.
+_:b4 <http://www.w3.org/ns/odrl/2/target> <http://example.com/document:XZY>.
+_:b4 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/delete>.
+_:b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/odrl/2/compensate>.
+_:b6 <http://www.w3.org/ns/odrl/2/compensatedParty> <http://wwf.org>.
+_:b7 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/payAmount>.
+_:b7 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq>.
+_:b7 <http://www.w3.org/ns/odrl/2/rightOperand> "10.00"^^<http://www.w3.org/2001/XMLSchema#decimal>.
+_:b7 <http://www.w3.org/ns/odrl/2/unit> <http://dbpedia.org/resource/Euro>.
+_:b6 <http://www.w3.org/ns/odrl/2/refinement> _:b7.
+_:b5 <http://www.w3.org/ns/odrl/2/action> _:b6.
+_:b4 <http://www.w3.org/ns/odrl/2/consequence> _:b5.
+<http://odrlapi.appspot.com/samples/sample069x> <http://www.w3.org/ns/odrl/2/obligation> _:b4.
