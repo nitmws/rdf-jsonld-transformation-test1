@@ -15,7 +15,7 @@ function transformTurtleToJsonld(samplename) {
     } catch(e) {
         console.log('Error:', e.stack);
     }
-    console.log(turtledata);
+    // console.log(turtledata);
     let n3parser = N3.Parser()
     let nquads = n3parser.parse(turtledata)
     let n3writer = N3.Writer({ format: 'N-Triples' })
@@ -45,3 +45,5 @@ function transformTurtleToJsonld(samplename) {
 }
 
 transformTurtleToJsonld('sample069x')
+
+transformTurtleToJsonld('sample069x-corr')
