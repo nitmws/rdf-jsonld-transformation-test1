@@ -32,11 +32,10 @@ function transformTurtleToJsonld(samplename) {
         fs.writeFileSync('./testdata/' + samplename + '=nquads.txt', nquadsstr)
         jsonld.fromRDF(nquadsstr, {}, function(err, doc) {
             if (err) {
-                console.log(err.message)
+                console.log('Error raised by jsonld.fromRDF: ' + err.message)
             }
             if (doc) {
                 jsonfile.writeFileSync('./testdata/' + samplename + '.json', doc, {spaces: 2})
-                // let context = "http://www.w3.org/ns/odrl.jsonld"
                 let context = jsonfile.readFileSync('./ODRL22.jsonld') //
                 jsonld.compact(doc, context, {skipExpansion : true},  function(err, compacted) {
                     // console.log(JSON.stringify(compacted, null, 2));
@@ -76,8 +75,8 @@ function transformAllOdrlSamples() {
     }
 }
 
-// transformTurtleToJsonld('sample069x')
+transformTurtleToJsonld('sample015')
 
-transformAllOdrlSamples()
+// transformAllOdrlSamples()
 
 

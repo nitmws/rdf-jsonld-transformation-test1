@@ -1,9 +1,9 @@
 <http://odrlapi.appspot.com/samples/sample015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
 <http://odrlapi.appspot.com/samples/sample015> <http://purl.org/dc/terms/source> "victor".
-_:b13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
-_:b13 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
-_:b13 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
-_:b13 <http://www.w3.org/ns/odrl/2/assigner> _:b13_Alice.
-_:b13 <http://www.w3.org/ns/odrl/2/assignee> _:b13_Carlos.
-_:b13 <http://www.w3.org/ns/odrl/2/assignee> _:b13_Bob.
-<http://odrlapi.appspot.com/samples/sample015> <http://www.w3.org/ns/odrl/2/permission> _:b13.
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b0 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b0 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b0 <http://www.w3.org/ns/odrl/2/assigner> _:b0_Alice.
+_:b0 <http://www.w3.org/ns/odrl/2/assignee> _:b0_Carlos.
+_:b0 <http://www.w3.org/ns/odrl/2/assignee> _:b0_Bob.
+<http://odrlapi.appspot.com/samples/sample015> <http://www.w3.org/ns/odrl/2/permission> _:b0.
