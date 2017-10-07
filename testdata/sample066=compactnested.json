@@ -3,13 +3,10 @@
   "type": "Agreement",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b106",
     "assignee": {
-      "uid": "_:b107",
       "type": "PartyCollection",
       "action": "display",
       "refinement": {
-        "uid": "_:b108",
         "leftOperand": "foaf:age",
         "operator": "gt",
         "rightOperand": {

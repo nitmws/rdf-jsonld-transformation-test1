@@ -2,7 +2,6 @@
   "uid": "http://odrlapi.appspot.com/samples/proh000",
   "type": "Prohibition",
   "prohibition": {
-    "uid": "_:b54",
     "action": "reproduce",
     "remedy": "http://odrlapi.appspot.com/samples/proh000",
     "target": "http://example.com/asset:9519"

@@ -3,11 +3,9 @@
   "type": "Policy",
   "dct:creator": "victor",
   "permission": {
-    "uid": "_:b99",
     "type": "Permission",
     "action": "play",
     "constraint": {
-      "uid": "_:b100",
       "leftOperand": "dateTime",
       "operator": "http://odrlapi.appspot.com/profile/mystery",
       "rightOperand": "2017-12-31"

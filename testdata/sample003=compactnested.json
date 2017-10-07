@@ -6,7 +6,6 @@
   ],
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b1",
     "type": "Permission",
     "action": "reproduce",
     "assignee": "http://example.com/user:314",

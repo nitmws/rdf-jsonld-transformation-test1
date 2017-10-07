@@ -5,16 +5,13 @@
     "uid": "http://w3c.github.io/poe/model/"
   },
   "permission": {
-    "uid": "_:b33",
     "action": "distribute",
     "assignee": "http://example.com/person:88",
     "assigner": "http://example.com/org:99",
     "duty": {
-      "uid": "_:b34",
       "action": "attribute",
       "attribute:dParty": "Australia",
       "consequence": {
-        "uid": "_:b35",
         "action": "acceptTracking",
         "odrl:trakingParty": {
           "uid": "http://example.com/dept:100"

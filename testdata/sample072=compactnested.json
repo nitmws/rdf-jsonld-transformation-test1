@@ -6,12 +6,10 @@
   },
   "profile": "http://example.com/odrl:profile:09",
   "prohibition": {
-    "uid": "_:b120",
     "action": "modify",
     "assignee": "http://example.com/person:99",
     "assigner": "http://example.com/person:88",
     "remedy": {
-      "uid": "_:b121",
       "action": "delete",
       "target": "http://example.com/data:77"
     },

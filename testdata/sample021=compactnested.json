@@ -5,7 +5,6 @@
     "uid": "http://w3c.github.io/poe/model/"
   },
   "permission": {
-    "uid": "_:b22",
     "action": "display",
     "assignee": "http://example.com/assignee:55",
     "assigner": "http://example.com/MyPix:55",
@@ -14,7 +13,6 @@
   },
   "profile": "http://example.com/odrl:profile:08",
   "prohibition": {
-    "uid": "_:b23",
     "action": "display",
     "assignee": "http://example.com/assignee:55",
     "assigner": "http://example.com/MyPix:55",

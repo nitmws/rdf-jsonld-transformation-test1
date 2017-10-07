@@ -3,14 +3,11 @@
   "type": "Offer",
   "dct:source": "http://w3c.github.io/poe/model/",
   "permission": {
-    "uid": "_:b103",
     "assigner": "http://example.com/org88",
     "target": {
-      "uid": "_:b104",
       "type": "AssetCollection",
       "action": "play",
       "refinement": {
-        "uid": "_:b105",
         "leftOperand": "odrl:runningTime",
         "operator": "lt",
         "rightOperand": {

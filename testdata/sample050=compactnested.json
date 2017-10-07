@@ -4,7 +4,6 @@
   "dct:source": "victor",
   "odrl:inheritFrom": "literal",
   "obligation": {
-    "uid": "_:b81",
     "action": "reviewPolicy"
   },
   "target": "http://example.com/asset:terms-and-conditions",

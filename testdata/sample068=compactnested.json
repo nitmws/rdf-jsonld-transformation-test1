@@ -7,18 +7,14 @@
   "assignee": "http://example.com/person:44",
   "assigner": "http://example.com/org:43",
   "obligation": {
-    "uid": "_:b112",
     "action": "delete",
     "consequence": {
-      "uid": "_:b113",
       "action": {
-        "uid": "_:b114",
         "rdf:value": {
           "uid": "odrl:compensate"
         },
         "compensatedParty": "http://wwf.org",
         "refinement": {
-          "uid": "_:b115",
           "leftOperand": "payAmount",
           "operator": "eq",
           "rightOperand": {

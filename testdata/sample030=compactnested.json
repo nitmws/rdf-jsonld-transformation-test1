@@ -5,11 +5,9 @@
     "uid": "http://w3c.github.io/poe/model/"
   },
   "permission": {
-    "uid": "_:b44",
     "action": "play",
     "assigner": "http://example.com/org:xyz",
     "constraint": {
-      "uid": "_:b45",
       "type": "Constraint",
       "leftOperand": "dateTime",
       "rightOperand": "2017-12-31"

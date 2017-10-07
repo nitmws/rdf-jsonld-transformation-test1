@@ -3,7 +3,6 @@
   "type": "Policy",
   "odrl:assignee": "Pedro",
   "permission": {
-    "uid": "_:b126",
     "type": "Permission",
     "action": [
       "reproduce",

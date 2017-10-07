@@ -3,7 +3,6 @@
   "type": "Set",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b46",
     "type": "Permission",
     "action": "reproduce"
   },

@@ -8,4 +8,5 @@ The data used for the transformation are in the /testdata folder:
 * ...=nquads.txt: the Nquads serialization
 * .json: the expanded JSON-LD serialization
 * ...=compact.json: the compact JSON-LD serialization, including a @context
+* ...=compactnested.json: the compact JSON-LD serialization with nested blank nodes
 

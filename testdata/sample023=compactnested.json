@@ -5,14 +5,11 @@
     "uid": "http://w3c.github.io/poe/model/"
   },
   "obligation": {
-    "uid": "_:b27",
     "action": {
-      "uid": "_:b28",
       "rdf:value": {
         "uid": "odrl:print"
       },
       "refinement": {
-        "uid": "_:b29",
         "leftOperand": "percentage",
         "operator": "lteq",
         "rightOperand": {

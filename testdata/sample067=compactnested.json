@@ -3,13 +3,10 @@
   "type": "Agreement",
   "dct:source": "http://w3c.github.io/poe/model/",
   "permission": {
-    "uid": "_:b109",
     "assignee": {
-      "uid": "_:b110",
       "type": "PartyCollection",
       "action": "display",
       "refinement": {
-        "uid": "_:b111",
         "leftOperand": "foaf:age",
         "operator": "gt",
         "rightOperand": {

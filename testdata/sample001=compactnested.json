@@ -2,7 +2,6 @@
   "uid": "http://odrlapi.appspot.com/samples/sample001",
   "type": "Policy",
   "permission": {
-    "uid": "_:b0",
     "type": "Permission",
     "action": "reproduce",
     "target": "http://odrlapi.appspot.com/samples/asset000"

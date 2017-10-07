@@ -3,7 +3,6 @@
   "type": "Set",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b49",
     "odrl:action": "reproduce",
     "target": "http://odrlapi.appspot.com/samples/asset000"
   },

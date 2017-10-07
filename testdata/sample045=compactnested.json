@@ -6,7 +6,6 @@
   },
   "assigner": "http://example.com/org-01",
   "obligation": {
-    "uid": "_:b68",
     "action": "reviewPolicy",
     "target": "http://example.com/asset:terms-and-conditions"
   },

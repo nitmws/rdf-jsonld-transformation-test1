@@ -3,12 +3,10 @@
   "type": "Set",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b47",
     "action": "reproduce",
     "target": "http://odrlapi.appspot.com/samples/asset000"
   },
   "prohibition": {
-    "uid": "_:b48",
     "action": "reproduce",
     "target": "http://odrlapi.appspot.com/samples/asset000"
   },

@@ -75,6 +75,12 @@ function nest(compactjson){
     return nestedjson
 }
 
+/**
+ * The value of properties with "_:..." as initial value is replaced by the referenced blank node
+ * @param testnode
+ * @param cjson
+ * @returns {*}
+ */
 function addBlanknode(testnode, cjson){
     for (let prop in testnode) {
         let value = testnode[prop]
@@ -85,12 +91,21 @@ function addBlanknode(testnode, cjson){
                     let bnode1 = addBlanknode(bnode, cjson)
                     testnode[prop] = bnode1
                 }
+                else {
+                    delete testnode[prop] // deletes the auto-generated id of a blank node
+                }
             }
         }
     }
     return testnode
 }
 
+/**
+ * Retrieves a blank node from the compact JSON-LD object
+ * @param blanknodeid
+ * @param cjson
+ * @returns {undefined}
+ */
 function getBlanknode(blanknodeid, cjson){
     let bnode = undefined
     for (let i = 0; i < cjson['@graph'].length; i++){

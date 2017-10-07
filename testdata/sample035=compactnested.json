@@ -3,19 +3,15 @@
   "type": "Agreement",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b50",
     "action": "distribute",
     "assignee": "http://example.com/person:88",
     "assigner": "http://example.com/org:99",
     "duty": {
-      "uid": "_:b51",
       "action": "attribute",
       "attribute:dParty": "Australia",
       "consequence": {
-        "uid": "_:b52",
         "action": "acceptTracking",
         "constraint": {
-          "uid": "_:b53",
           "leftOperand": "dateTime",
           "operator": "lteq",
           "rightOperand": "2017-12-31"

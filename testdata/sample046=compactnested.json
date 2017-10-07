@@ -4,7 +4,6 @@
   "dct:source": "victor",
   "assigner": "http://example.com/org-01",
   "obligation": {
-    "uid": "_:b70",
     "action": "reviewPolicy"
   },
   "target": "http://example.com/asset:terms-and-conditions",

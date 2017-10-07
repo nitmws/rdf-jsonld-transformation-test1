@@ -4,7 +4,6 @@
   "dct:source": "victor",
   "conflict": "http://example.com/odrl/profile/40/strategyUNKNOWN",
   "permission": {
-    "uid": "_:b102",
     "type": "Permission",
     "action": "use",
     "assigner": "http://example.com/owner:181",

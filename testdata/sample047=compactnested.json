@@ -4,7 +4,6 @@
   "dct:source": "victor",
   "inheritFrom": "http://odrlapi.appspot.com/samples/sample047b",
   "obligation": {
-    "uid": "_:b76",
     "action": "reviewPolicy"
   },
   "target": "http://example.com/asset:terms-and-conditions",

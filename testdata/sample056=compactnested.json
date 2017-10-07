@@ -3,7 +3,6 @@
   "type": "Policy",
   "dct:creator": "victor",
   "permission": {
-    "uid": "_:b98",
     "type": "Permission",
     "action": "http://odrlapi.appspot.com/profilesupercalifragilisticoespialidoso",
     "target": "http://odrlapi.appspot.com/samples/asset000"

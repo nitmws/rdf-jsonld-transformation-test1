@@ -3,11 +3,9 @@
   "type": "Offer",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b66",
     "action": "play",
     "assigner": "http://example.com/org:xyz",
     "constraint": {
-      "uid": "_:b67",
       "leftOperand": "dateTime",
       "operator": "lteq",
       "rightOperand:Reference": "asdf"

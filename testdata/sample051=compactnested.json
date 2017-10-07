@@ -3,7 +3,6 @@
   "type": "Policy",
   "dct:source": "victor",
   "permission": {
-    "uid": "_:b82",
     "type": [
       "Permission",
       "Prohibition"
