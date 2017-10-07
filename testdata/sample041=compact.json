@@ -1,0 +1,45 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b59",
+      "action": "use",
+      "assignee": "_:b61",
+      "assigner": "_:b60",
+      "target": "http://example.com/looking-glass.ebook"
+    },
+    {
+      "uid": "_:b60",
+      "type": [
+        "Party",
+        "vcard:Organization"
+      ],
+      "rdf:value": {
+        "uid": "http://example.com/org/sony-books"
+      },
+      "vcard:fn": "Sony Books LCC",
+      "vcard:hasEmail": "sony-contact@example.com"
+    },
+    {
+      "uid": "_:b61",
+      "type": [
+        "PartyCollection",
+        "vcard:Group"
+      ],
+      "rdf:value": {
+        "uid": "http://example.com/team/A"
+      },
+      "vcard:fn": "Team A",
+      "vcard:hasEmail": "teamA@example.com"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample041",
+      "type": "Agreement",
+      "dct:source": {
+        "uid": "http://w3c.github.io/poe/model/"
+      },
+      "permission": "_:b59",
+      "profile": "http://example.com/odrl:profile:05"
+    }
+  ]
+}

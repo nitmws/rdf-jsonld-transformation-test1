@@ -1,0 +1,9 @@
+<http://odrlapi.appspot.com/samples/sample063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample063> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample063> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:40>.
+<http://odrlapi.appspot.com/samples/sample063> <http://www.w3.org/ns/odrl/2/conflict> <http://example.com/odrl/profile/40/strategyUNKNOWN>.
+_:b101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b101 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:1212>.
+_:b101 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/use>.
+_:b101 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/owner:181>.
+<http://odrlapi.appspot.com/samples/sample063> <http://www.w3.org/ns/odrl/2/permission> _:b101.

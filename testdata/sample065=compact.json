@@ -1,0 +1,35 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b103",
+      "assigner": "http://example.com/org88",
+      "target": "_:b104"
+    },
+    {
+      "uid": "_:b104",
+      "type": "AssetCollection",
+      "action": "play",
+      "refinement": "_:b105"
+    },
+    {
+      "uid": "_:b105",
+      "leftOperand": "odrl:runningTime",
+      "operator": "lt",
+      "rightOperand": {
+        "type": "xsd:integer",
+        "@value": "60"
+      },
+      "unit": {
+        "uid": "http://qudt.org/vocab/unit/MinuteTime"
+      }
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample065",
+      "type": "Offer",
+      "dct:source": "http://w3c.github.io/poe/model/",
+      "permission": "_:b103",
+      "profile": "http://example.com/odrl:profile:11"
+    }
+  ]
+}

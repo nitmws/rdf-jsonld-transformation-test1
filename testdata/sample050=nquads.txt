@@ -1,0 +1,6 @@
+<http://odrlapi.appspot.com/samples/sample050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample050> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample050> <http://www.w3.org/ns/odrl/2/inheritFrom> "literal".
+<http://odrlapi.appspot.com/samples/sample050> <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:terms-and-conditions>.
+_:b81 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reviewPolicy>.
+<http://odrlapi.appspot.com/samples/sample050> <http://www.w3.org/ns/odrl/2/obligation> _:b81.

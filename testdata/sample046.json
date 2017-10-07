@@ -1,0 +1,179 @@
+[
+  {
+    "@id": "_:b70",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reviewPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "_:b71",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:8623"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/assigneeB"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/display"
+      }
+    ]
+  },
+  {
+    "@id": "_:b72",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:8623"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/print"
+      }
+    ]
+  },
+  {
+    "@id": "_:b73",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:8623"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  },
+  {
+    "@id": "_:b74",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:8623"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/anonymize"
+      }
+    ]
+  },
+  {
+    "@id": "_:b75",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:8623"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/execute"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyA",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org-01"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:terms-and-conditions"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/obligation": [
+      {
+        "@id": "_:b70"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyB",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/inheritFrom": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/policyA"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b71"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyC",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/inheritFrom": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/policyB"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b72"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyD",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/inheritFrom": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/policyE"
+      },
+      {
+        "@id": "http://odrlapi.appspot.com/samples/policyB"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b73"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyE",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b74"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/policyF",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b75"
+      }
+    ]
+  }
+]

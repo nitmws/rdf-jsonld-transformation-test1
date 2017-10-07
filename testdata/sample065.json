@@ -1,0 +1,76 @@
+[
+  {
+    "@id": "_:b103",
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org88"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "_:b104"
+      }
+    ]
+  },
+  {
+    "@id": "_:b104",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/AssetCollection"
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/play"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/refinement": [
+      {
+        "@id": "_:b105"
+      }
+    ]
+  },
+  {
+    "@id": "_:b105",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/runningTime"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/lt"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "60",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/MinuteTime"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample065",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Offer"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:11"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b103"
+      }
+    ]
+  }
+]

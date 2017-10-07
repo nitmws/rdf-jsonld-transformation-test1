@@ -1,0 +1,39 @@
+[
+  {
+    "@id": "_:b98",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/asset000"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://odrlapi.appspot.com/profilesupercalifragilisticoespialidoso"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample056",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://odrlapi.appspot.com/profilemyprofile"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b98"
+      }
+    ]
+  }
+]

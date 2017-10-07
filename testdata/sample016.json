@@ -1,0 +1,55 @@
+[
+  {
+    "@id": "_:b14",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:9898"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  },
+  {
+    "@id": "_:b15",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Prohibition"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:9898"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/modify"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample016",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1-Policy"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b14"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/prohibition": [
+      {
+        "@id": "_:b15"
+      }
+    ]
+  }
+]

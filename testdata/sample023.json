@@ -1,0 +1,78 @@
+[
+  {
+    "@id": "_:b27",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/document:1234"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org:616"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/person:44"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "_:b28"
+      }
+    ]
+  },
+  {
+    "@id": "_:b28",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/print"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/refinement": [
+      {
+        "@id": "_:b29"
+      }
+    ]
+  },
+  {
+    "@id": "_:b29",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/percentage"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/lteq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "50",
+        "@type": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample023",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Offer"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:10"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/obligation": [
+      {
+        "@id": "_:b27"
+      }
+    ]
+  }
+]

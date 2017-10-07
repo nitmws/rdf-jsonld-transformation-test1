@@ -1,0 +1,45 @@
+[
+  {
+    "@id": "_:b1",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/user:711"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/user:314"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:9898"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample003",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Offer",
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b1"
+      }
+    ]
+  }
+]

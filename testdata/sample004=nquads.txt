@@ -1,0 +1,6 @@
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+_:b2 <http://purl.org/dc/terms/source> <https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1-Policy>.
+_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b3 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b3 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b2 <http://www.w3.org/ns/odrl/2/permission> _:b3.

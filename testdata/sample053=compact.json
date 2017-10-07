@@ -1,0 +1,34 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b88",
+      "action": "play",
+      "assigner": "http://example.com/org/paisley-park",
+      "constraint": "_:b89",
+      "target": "http://example.com/book/1999"
+    },
+    {
+      "uid": "_:b89",
+      "http://odrlapi.appspot.com/profileunknown": {
+        "uid": "http://example.com/p:88/C1"
+      }
+    },
+    {
+      "uid": "http://example.com/p:88/C1",
+      "type": "Constraint",
+      "odrl:leftOperand": "media",
+      "operator": "eq",
+      "rightOperand": {
+        "uid": "odrl:online"
+      }
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample053",
+      "type": "Set",
+      "dct:source": "victor",
+      "permission": "_:b88",
+      "profile": "http://odrlapi.appspot.com/profile"
+    }
+  ]
+}

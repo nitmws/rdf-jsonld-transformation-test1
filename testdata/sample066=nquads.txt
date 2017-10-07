@@ -1,0 +1,13 @@
+<http://odrlapi.appspot.com/samples/sample066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample066> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample066> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:12>.
+_:b106 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/user44>.
+_:b106 <http://www.w3.org/ns/odrl/2/target> <http://example.com/myPhotos:BdayParty>.
+_:b107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/PartyCollection>.
+_:b107 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+_:b108 <http://www.w3.org/ns/odrl/2/leftOperand> <http://xmlns.com/foaf/0.1/age>.
+_:b108 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/gt>.
+_:b108 <http://www.w3.org/ns/odrl/2/rightOperand> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
+_:b107 <http://www.w3.org/ns/odrl/2/refinement> _:b108.
+_:b106 <http://www.w3.org/ns/odrl/2/assignee> _:b107.
+<http://odrlapi.appspot.com/samples/sample066> <http://www.w3.org/ns/odrl/2/permission> _:b106.

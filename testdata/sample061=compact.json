@@ -1,0 +1,25 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b100",
+      "leftOperand": "dateTime",
+      "operator": "http://odrlapi.appspot.com/profile/mystery",
+      "rightOperand": "2017-12-31"
+    },
+    {
+      "uid": "_:b99",
+      "type": "Permission",
+      "action": "play",
+      "constraint": "_:b100",
+      "target": "http://odrlapi.appspot.com/samples/asset000"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample061",
+      "type": "Policy",
+      "dct:creator": "victor",
+      "permission": "_:b99",
+      "profile": "http://odrlapi.appspot.com/profile/myprofile"
+    }
+  ]
+}

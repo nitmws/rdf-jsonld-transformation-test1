@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "_:b2",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1-Policy"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b3"
+      }
+    ]
+  },
+  {
+    "@id": "_:b3",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:9898"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  }
+]

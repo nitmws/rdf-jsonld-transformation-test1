@@ -1,0 +1,7 @@
+<http://odrlapi.appspot.com/samples/sample017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Offer>.
+<http://odrlapi.appspot.com/samples/sample017> <http://purl.org/dc/terms/source> <https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1.3-Offer>.
+_:b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b16 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b16 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b16 <http://www.w3.org/ns/odrl/2/assigner> _:b15_Bob.
+<http://odrlapi.appspot.com/samples/sample017> <http://www.w3.org/ns/odrl/2/permission> _:b16.

@@ -1,0 +1,29 @@
+[
+  {
+    "@id": "_:b0",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/asset000"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample001",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b0"
+      }
+    ]
+  }
+]

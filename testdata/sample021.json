@@ -1,0 +1,79 @@
+[
+  {
+    "@id": "_:b22",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/photoAlbum:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/MyPix:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/assignee:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/display"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/conflict": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/perm"
+      }
+    ]
+  },
+  {
+    "@id": "_:b23",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/photoAlbum:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/MyPix:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/assignee:55"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/display"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample021",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:08"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b22"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/prohibition": [
+      {
+        "@id": "_:b23"
+      }
+    ]
+  }
+]

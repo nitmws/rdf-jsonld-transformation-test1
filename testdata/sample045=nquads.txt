@@ -1,0 +1,14 @@
+<http://odrlapi.appspot.com/samples/sample045> <http://purl.org/dc/terms/source> <http://w3c.github.io/poe/model/>.
+<http://odrlapi.appspot.com/samples/sample045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample045> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:30>.
+<http://odrlapi.appspot.com/samples/sample045> <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org-01>.
+_:b68 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:terms-and-conditions>.
+_:b68 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reviewPolicy>.
+<http://odrlapi.appspot.com/samples/sample045> <http://www.w3.org/ns/odrl/2/obligation> _:b68.
+<http://odrlapi.appspot.com/samples/sample045b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample045b> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:30>.
+<http://odrlapi.appspot.com/samples/sample045b> <http://www.w3.org/ns/odrl/2/inheritFrom> <http://odrlapi.appspot.com/samples/sample045>.
+<http://odrlapi.appspot.com/samples/sample045b> <http://www.w3.org/ns/odrl/2/assignee> <http://example.com/user:0001>.
+_:b69 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:555>.
+_:b69 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+<http://odrlapi.appspot.com/samples/sample045b> <http://www.w3.org/ns/odrl/2/permission> _:b69.

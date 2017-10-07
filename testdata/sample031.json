@@ -1,0 +1,29 @@
+[
+  {
+    "@id": "_:b46",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample031",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Set"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b46"
+      }
+    ]
+  }
+]

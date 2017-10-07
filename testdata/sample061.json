@@ -1,0 +1,62 @@
+[
+  {
+    "@id": "_:b100",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/dateTime"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://odrlapi.appspot.com/profile/mystery"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "2017-12-31"
+      }
+    ]
+  },
+  {
+    "@id": "_:b99",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Permission"
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/asset000"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/play"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/constraint": [
+      {
+        "@id": "_:b100"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample061",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://odrlapi.appspot.com/profile/myprofile"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b99"
+      }
+    ]
+  }
+]

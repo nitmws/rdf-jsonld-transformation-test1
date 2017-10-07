@@ -1,0 +1,16 @@
+<http://odrlapi.appspot.com/samples/sample048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample048> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample048> <http://www.w3.org/ns/odrl/2/inheritFrom> <http://odrlapi.appspot.com/samples/sample048b>.
+<http://odrlapi.appspot.com/samples/sample048> <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:terms-and-conditions>.
+_:b78 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reviewPolicy>.
+<http://odrlapi.appspot.com/samples/sample048> <http://www.w3.org/ns/odrl/2/obligation> _:b78.
+<http://odrlapi.appspot.com/samples/sample048b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample048b> <http://www.w3.org/ns/odrl/2/inheritFrom> <http://odrlapi.appspot.com/samples/sample048c>.
+_:b79 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/asset:555>.
+_:b79 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+<http://odrlapi.appspot.com/samples/sample048b> <http://www.w3.org/ns/odrl/2/permission> _:b79.
+<http://odrlapi.appspot.com/samples/sample048c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample048c> <http://www.w3.org/ns/odrl/2/inheritFrom> <http://odrlapi.appspot.com/samples/sample048>.
+_:b80 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/asset:555>.
+_:b80 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/print>.
+<http://odrlapi.appspot.com/samples/sample048c> <http://www.w3.org/ns/odrl/2/permission> _:b80.

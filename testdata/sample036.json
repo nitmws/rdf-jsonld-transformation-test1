@@ -1,0 +1,47 @@
+[
+  {
+    "@id": "_:b54",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:9519"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/remedy": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/proh000"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/proh000",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Prohibition"
+    ],
+    "http://www.w3.org/ns/odrl/2/prohibition": [
+      {
+        "@id": "_:b54"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample036",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Set"
+    ],
+    "http://www.w3.org/ns/odrl/2/prohibition": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/proh000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "_:b81",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reviewPolicy"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample050",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/inheritFrom": [
+      {
+        "@value": "literal"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/asset:terms-and-conditions"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/obligation": [
+      {
+        "@id": "_:b81"
+      }
+    ]
+  }
+]

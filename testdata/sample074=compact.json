@@ -1,0 +1,20 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b126",
+      "type": "Permission",
+      "action": [
+        "reproduce",
+        "play"
+      ],
+      "target": "http://odrlapi.appspot.com/samples/asset000"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample074",
+      "type": "Policy",
+      "odrl:assignee": "Pedro",
+      "permission": "_:b126"
+    }
+  ]
+}

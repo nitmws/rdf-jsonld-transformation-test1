@@ -1,0 +1,14 @@
+<http://odrlapi.appspot.com/samples/sample021> <http://purl.org/dc/terms/source> <http://w3c.github.io/poe/model/>.
+<http://odrlapi.appspot.com/samples/sample021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample021> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:08>.
+_:b22 <http://www.w3.org/ns/odrl/2/target> <http://example.com/photoAlbum:55>.
+_:b22 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/MyPix:55>.
+_:b22 <http://www.w3.org/ns/odrl/2/assignee> <http://example.com/assignee:55>.
+_:b22 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+_:b22 <http://www.w3.org/ns/odrl/2/conflict> <http://www.w3.org/ns/odrl/2/perm>.
+<http://odrlapi.appspot.com/samples/sample021> <http://www.w3.org/ns/odrl/2/permission> _:b22.
+_:b23 <http://www.w3.org/ns/odrl/2/target> <http://example.com/photoAlbum:55>.
+_:b23 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/MyPix:55>.
+_:b23 <http://www.w3.org/ns/odrl/2/assignee> <http://example.com/assignee:55>.
+_:b23 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+<http://odrlapi.appspot.com/samples/sample021> <http://www.w3.org/ns/odrl/2/prohibition> _:b23.

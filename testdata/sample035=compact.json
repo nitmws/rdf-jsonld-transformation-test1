@@ -1,0 +1,40 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b50",
+      "action": "distribute",
+      "assignee": "http://example.com/person:88",
+      "assigner": "http://example.com/org:99",
+      "duty": "_:b51",
+      "target": "http://example.com/data:77"
+    },
+    {
+      "uid": "_:b51",
+      "action": "attribute",
+      "attribute:dParty": "Australia",
+      "consequence": "_:b52"
+    },
+    {
+      "uid": "_:b52",
+      "action": "acceptTracking",
+      "constraint": "_:b53",
+      "odrl:trakingParty": {
+        "uid": "http://example.com/dept:100"
+      }
+    },
+    {
+      "uid": "_:b53",
+      "leftOperand": "dateTime",
+      "operator": "lteq",
+      "rightOperand": "2017-12-31"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample035",
+      "type": "Agreement",
+      "dct:source": "victor",
+      "permission": "_:b50",
+      "profile": "http://example.com/odrl:profile:09"
+    }
+  ]
+}

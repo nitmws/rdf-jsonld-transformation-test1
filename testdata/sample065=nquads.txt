@@ -1,0 +1,13 @@
+<http://odrlapi.appspot.com/samples/sample065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Offer>.
+<http://odrlapi.appspot.com/samples/sample065> <http://purl.org/dc/terms/source> "http://w3c.github.io/poe/model/".
+<http://odrlapi.appspot.com/samples/sample065> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:11>.
+_:b103 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org88>.
+_:b104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/AssetCollection>.
+_:b104 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/play>.
+_:b105 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/runningTime>.
+_:b105 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/lt>.
+_:b105 <http://www.w3.org/ns/odrl/2/rightOperand> "60"^^<http://www.w3.org/2001/XMLSchema#integer>.
+_:b105 <http://www.w3.org/ns/odrl/2/unit> <http://qudt.org/vocab/unit/MinuteTime>.
+_:b104 <http://www.w3.org/ns/odrl/2/refinement> _:b105.
+_:b103 <http://www.w3.org/ns/odrl/2/target> _:b104.
+<http://odrlapi.appspot.com/samples/sample065> <http://www.w3.org/ns/odrl/2/permission> _:b103.

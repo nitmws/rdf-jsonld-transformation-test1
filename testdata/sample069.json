@@ -1,0 +1,95 @@
+[
+  {
+    "@id": "_:b116",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/document:XZY"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/delete"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/consequence": [
+      {
+        "@id": "_:b117"
+      }
+    ]
+  },
+  {
+    "@id": "_:b117",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "_:b118"
+      }
+    ]
+  },
+  {
+    "@id": "_:b118",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/compensate"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/compensatedParty": [
+      {
+        "@id": "http://wwf.org"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/refinement": [
+      {
+        "@id": "_:b119"
+      }
+    ]
+  },
+  {
+    "@id": "_:b119",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/payAmount"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/eq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/unit": [
+      {
+        "@id": "http://dbpedia.org/resource/Euro"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample069",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:09"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org:43"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/person:44"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/obligation": [
+      {
+        "@id": "_:b116"
+      }
+    ]
+  }
+]

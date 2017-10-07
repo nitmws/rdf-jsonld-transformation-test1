@@ -1,0 +1,33 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b68",
+      "action": "reviewPolicy",
+      "target": "http://example.com/asset:terms-and-conditions"
+    },
+    {
+      "uid": "_:b69",
+      "action": "display",
+      "target": "http://example.com/asset:555"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample045",
+      "type": "Policy",
+      "dct:source": {
+        "uid": "http://w3c.github.io/poe/model/"
+      },
+      "assigner": "http://example.com/org-01",
+      "obligation": "_:b68",
+      "profile": "http://example.com/odrl:profile:30"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample045b",
+      "type": "Agreement",
+      "assignee": "http://example.com/user:0001",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/sample045",
+      "permission": "_:b69",
+      "profile": "http://example.com/odrl:profile:30"
+    }
+  ]
+}

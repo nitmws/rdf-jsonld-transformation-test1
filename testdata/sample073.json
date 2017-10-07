@@ -1,0 +1,105 @@
+[
+  {
+    "@id": "_:b122",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/data:77"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/person:88"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/person:99"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/modify"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/remedy": [
+      {
+        "@id": "_:b123"
+      }
+    ]
+  },
+  {
+    "@id": "_:b123",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/delete"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/data:77"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/consequence": [
+      {
+        "@id": "_:b124"
+      }
+    ]
+  },
+  {
+    "@id": "_:b124",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/acceptTracking"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/trakingParty": [
+      {
+        "@id": "http://example.com/dept:100"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/constraint": [
+      {
+        "@id": "_:b125"
+      }
+    ]
+  },
+  {
+    "@id": "_:b125",
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/dateTime"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/lteq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "2017-12-31"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample073",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "victor"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:09"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/prohibition": [
+      {
+        "@id": "_:b122"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+<http://odrlapi.appspot.com/samples/sample013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample013> <http://purl.org/dc/terms/source> "victor".
+_:b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b11 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b11 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b11 <http://www.w3.org/ns/odrl/2/assigner> _:b11_Alice.
+<http://odrlapi.appspot.com/samples/sample013> <http://www.w3.org/ns/odrl/2/permission> _:b11.
+<http://odrlapi.appspot.com/samples/party000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Party>.
+<http://odrlapi.appspot.com/samples/party000> <http://www.w3.org/ns/odrl/2/assigneeOf> <http://odrlapi.appspot.com/samples/sample013>.

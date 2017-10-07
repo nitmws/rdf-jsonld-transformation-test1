@@ -1,0 +1,14 @@
+<http://odrlapi.appspot.com/samples/sample067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample067> <http://purl.org/dc/terms/source> "http://w3c.github.io/poe/model/".
+<http://odrlapi.appspot.com/samples/sample067> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:12>.
+_:b109 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/user44>.
+_:b109 <http://www.w3.org/ns/odrl/2/target> <http://example.com/myPhotos:BdayParty>.
+_:b110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/PartyCollection>.
+_:b110 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/display>.
+_:b110 <http://www.w3.org/ns/odrl/2/source> <http://example.com/user44/friends>.
+_:b111 <http://www.w3.org/ns/odrl/2/leftOperand> <http://xmlns.com/foaf/0.1/age>.
+_:b111 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/gt>.
+_:b111 <http://www.w3.org/ns/odrl/2/rightOperand> "17"^^<http://www.w3.org/2001/XMLSchema#integer>.
+_:b110 <http://www.w3.org/ns/odrl/2/refinement> _:b111.
+_:b109 <http://www.w3.org/ns/odrl/2/assignee> _:b110.
+<http://odrlapi.appspot.com/samples/sample067> <http://www.w3.org/ns/odrl/2/permission> _:b109.

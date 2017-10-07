@@ -1,0 +1,107 @@
+[
+  {
+    "@id": "_:b30",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/book/1999"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org/paisley-park"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "_:b31"
+      }
+    ]
+  },
+  {
+    "@id": "_:b31",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/reproduce"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/refinement": [
+      {
+        "@id": "_:b32"
+      }
+    ]
+  },
+  {
+    "@id": "_:b32",
+    "http://www.w3.org/ns/odrl/2/xone": [
+      {
+        "@id": "http://odrlapi.appspot.com/samples/cons88C1"
+      },
+      {
+        "@id": "http://odrlapi.appspot.com/samples/cons88C2"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/cons88C1",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Constraint"
+    ],
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@value": "media"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/eq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "online"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/cons88C2",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Constraint"
+    ],
+    "http://www.w3.org/ns/odrl/2/leftOperand": [
+      {
+        "@value": "media"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/operator": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/eq"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/rightOperand": [
+      {
+        "@value": "print"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample024",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Offer"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:10"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b30"
+      }
+    ]
+  }
+]

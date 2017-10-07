@@ -1,0 +1,7 @@
+<http://odrlapi.appspot.com/samples/sample056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample056> <http://purl.org/dc/terms/creator> "victor".
+<http://odrlapi.appspot.com/samples/sample056> <http://www.w3.org/ns/odrl/2/profile> <http://odrlapi.appspot.com/profilemyprofile>.
+_:b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b98 <http://www.w3.org/ns/odrl/2/target> <http://odrlapi.appspot.com/samples/asset000>.
+_:b98 <http://www.w3.org/ns/odrl/2/action> <http://odrlapi.appspot.com/profilesupercalifragilisticoespialidoso>.
+<http://odrlapi.appspot.com/samples/sample056> <http://www.w3.org/ns/odrl/2/permission> _:b98.

@@ -2,25 +2,25 @@
   "@context": "http://www.w3.org/ns/odrl.jsonld",
   "@graph": [
     {
-      "uid": "_:b0",
-      "action": "odrl:DELETE",
-      "consequence": "_:b1",
+      "uid": "_:b112",
+      "action": "delete",
+      "consequence": "_:b113",
       "target": "http://example.com/document:XZY"
     },
     {
-      "uid": "_:b1",
-      "action": "_:b2"
+      "uid": "_:b113",
+      "action": "_:b114"
     },
     {
-      "uid": "_:b2",
+      "uid": "_:b114",
       "rdf:value": {
         "uid": "odrl:compensate"
       },
       "compensatedParty": "http://wwf.org",
-      "refinement": "_:b3"
+      "refinement": "_:b115"
     },
     {
-      "uid": "_:b3",
+      "uid": "_:b115",
       "leftOperand": "payAmount",
       "operator": "eq",
       "rightOperand": {
@@ -32,11 +32,14 @@
       }
     },
     {
-      "uid": "http://odrlapi.appspot.com/samples/sample069x",
+      "uid": "http://odrlapi.appspot.com/samples/sample068",
       "type": "Agreement",
+      "dct:source": {
+        "uid": "http://w3c.github.io/poe/model/"
+      },
       "assignee": "http://example.com/person:44",
       "assigner": "http://example.com/org:43",
-      "obligation": "_:b0",
+      "obligation": "_:b112",
       "profile": "http://example.com/odrl:profile:09"
     }
   ]

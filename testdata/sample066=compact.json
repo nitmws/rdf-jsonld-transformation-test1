@@ -1,0 +1,33 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b106",
+      "assignee": "_:b107",
+      "assigner": "http://example.com/user44",
+      "target": "http://example.com/myPhotos:BdayParty"
+    },
+    {
+      "uid": "_:b107",
+      "type": "PartyCollection",
+      "action": "display",
+      "refinement": "_:b108"
+    },
+    {
+      "uid": "_:b108",
+      "leftOperand": "foaf:age",
+      "operator": "gt",
+      "rightOperand": {
+        "type": "xsd:integer",
+        "@value": "17"
+      }
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample066",
+      "type": "Agreement",
+      "dct:source": "victor",
+      "permission": "_:b106",
+      "profile": "http://example.com/odrl:profile:12"
+    }
+  ]
+}

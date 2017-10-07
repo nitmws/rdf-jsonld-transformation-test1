@@ -1,0 +1,7 @@
+<http://odrlapi.appspot.com/samples/sample074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+<http://odrlapi.appspot.com/samples/sample074> <http://www.w3.org/ns/odrl/2/assignee> "Pedro".
+_:b126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b126 <http://www.w3.org/ns/odrl/2/target> <http://odrlapi.appspot.com/samples/asset000>.
+_:b126 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b126 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/play>.
+<http://odrlapi.appspot.com/samples/sample074> <http://www.w3.org/ns/odrl/2/permission> _:b126.

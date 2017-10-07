@@ -1,0 +1,17 @@
+<http://odrlapi.appspot.com/samples/sample068> <http://purl.org/dc/terms/source> <http://w3c.github.io/poe/model/>.
+<http://odrlapi.appspot.com/samples/sample068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Agreement>.
+<http://odrlapi.appspot.com/samples/sample068> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:09>.
+<http://odrlapi.appspot.com/samples/sample068> <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org:43>.
+<http://odrlapi.appspot.com/samples/sample068> <http://www.w3.org/ns/odrl/2/assignee> <http://example.com/person:44>.
+_:b112 <http://www.w3.org/ns/odrl/2/target> <http://example.com/document:XZY>.
+_:b112 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/delete>.
+_:b114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/ns/odrl/2/compensate>.
+_:b114 <http://www.w3.org/ns/odrl/2/compensatedParty> <http://wwf.org>.
+_:b115 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/payAmount>.
+_:b115 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq>.
+_:b115 <http://www.w3.org/ns/odrl/2/rightOperand> "10.00"^^<http://www.w3.org/2001/XMLSchema#decimal>.
+_:b115 <http://www.w3.org/ns/odrl/2/unit> <http://dbpedia.org/resource/Euro>.
+_:b114 <http://www.w3.org/ns/odrl/2/refinement> _:b115.
+_:b113 <http://www.w3.org/ns/odrl/2/action> _:b114.
+_:b112 <http://www.w3.org/ns/odrl/2/consequence> _:b113.
+<http://odrlapi.appspot.com/samples/sample068> <http://www.w3.org/ns/odrl/2/obligation> _:b112.

@@ -1,0 +1,24 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b38",
+      "action": "play",
+      "assigner": "http://example.com/org:xyz",
+      "constraint": "_:b39",
+      "target": "http://example.com/game:9090"
+    },
+    {
+      "uid": "_:b39",
+      "operator": "lteq",
+      "rightOperand": "2017-12-31"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample027",
+      "type": "Offer",
+      "dct:source": "victor",
+      "permission": "_:b38",
+      "profile": "http://example.com/odrl:profile:07"
+    }
+  ]
+}

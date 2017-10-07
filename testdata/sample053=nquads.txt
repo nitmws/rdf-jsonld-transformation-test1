@@ -1,0 +1,13 @@
+<http://odrlapi.appspot.com/samples/sample053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set>.
+<http://odrlapi.appspot.com/samples/sample053> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample053> <http://www.w3.org/ns/odrl/2/profile> <http://odrlapi.appspot.com/profile>.
+_:b88 <http://www.w3.org/ns/odrl/2/target> <http://example.com/book/1999>.
+_:b88 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org/paisley-park>.
+_:b88 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/play>.
+_:b89 <http://odrlapi.appspot.com/profileunknown> <http://example.com/p:88/C1>.
+_:b88 <http://www.w3.org/ns/odrl/2/constraint> _:b89.
+<http://odrlapi.appspot.com/samples/sample053> <http://www.w3.org/ns/odrl/2/permission> _:b88.
+<http://example.com/p:88/C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Constraint>.
+<http://example.com/p:88/C1> <http://www.w3.org/ns/odrl/2/leftOperand> "media".
+<http://example.com/p:88/C1> <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/eq>.
+<http://example.com/p:88/C1> <http://www.w3.org/ns/odrl/2/rightOperand> <http://www.w3.org/ns/odrl/2/online>.

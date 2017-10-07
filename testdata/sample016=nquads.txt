@@ -1,0 +1,10 @@
+<http://odrlapi.appspot.com/samples/sample016> <http://purl.org/dc/terms/source> <https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1-Policy>.
+<http://odrlapi.appspot.com/samples/sample016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy>.
+_:b14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b14 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b14 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+<http://odrlapi.appspot.com/samples/sample016> <http://www.w3.org/ns/odrl/2/permission> _:b14.
+_:b15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Prohibition>.
+_:b15 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9898>.
+_:b15 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/modify>.
+<http://odrlapi.appspot.com/samples/sample016> <http://www.w3.org/ns/odrl/2/prohibition> _:b15.

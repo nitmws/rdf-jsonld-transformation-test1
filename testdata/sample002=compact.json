@@ -1,0 +1,5 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "uid": "http://odrlapi.appspot.com/samples/sample002",
+  "type": "Policy"
+}

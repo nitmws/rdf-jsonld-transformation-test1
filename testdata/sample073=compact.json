@@ -1,0 +1,40 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b122",
+      "action": "modify",
+      "assignee": "http://example.com/person:99",
+      "assigner": "http://example.com/person:88",
+      "remedy": "_:b123",
+      "target": "http://example.com/data:77"
+    },
+    {
+      "uid": "_:b123",
+      "action": "delete",
+      "consequence": "_:b124",
+      "target": "http://example.com/data:77"
+    },
+    {
+      "uid": "_:b124",
+      "action": "acceptTracking",
+      "constraint": "_:b125",
+      "odrl:trakingParty": {
+        "uid": "http://example.com/dept:100"
+      }
+    },
+    {
+      "uid": "_:b125",
+      "leftOperand": "dateTime",
+      "operator": "lteq",
+      "rightOperand": "2017-12-31"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample073",
+      "type": "Agreement",
+      "dct:source": "victor",
+      "profile": "http://example.com/odrl:profile:09",
+      "prohibition": "_:b122"
+    }
+  ]
+}

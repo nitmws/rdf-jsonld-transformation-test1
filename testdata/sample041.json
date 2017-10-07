@@ -1,0 +1,90 @@
+[
+  {
+    "@id": "_:b59",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/looking-glass.ebook"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "_:b60"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "_:b61"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/use"
+      }
+    ]
+  },
+  {
+    "@id": "_:b60",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Party",
+      "http://www.w3.org/2006/vcard/ns#Organization"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://example.com/org/sony-books"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "Sony Books LCC"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@value": "sony-contact@example.com"
+      }
+    ]
+  },
+  {
+    "@id": "_:b61",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/PartyCollection",
+      "http://www.w3.org/2006/vcard/ns#Group"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+      {
+        "@id": "http://example.com/team/A"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#fn": [
+      {
+        "@value": "Team A"
+      }
+    ],
+    "http://www.w3.org/2006/vcard/ns#hasEmail": [
+      {
+        "@value": "teamA@example.com"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample041",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:05"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b59"
+      }
+    ]
+  }
+]

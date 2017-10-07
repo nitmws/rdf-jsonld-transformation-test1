@@ -1,0 +1,37 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b27",
+      "action": "_:b28",
+      "assignee": "http://example.com/person:44",
+      "assigner": "http://example.com/org:616",
+      "target": "http://example.com/document:1234"
+    },
+    {
+      "uid": "_:b28",
+      "rdf:value": {
+        "uid": "odrl:print"
+      },
+      "refinement": "_:b29"
+    },
+    {
+      "uid": "_:b29",
+      "leftOperand": "percentage",
+      "operator": "lteq",
+      "rightOperand": {
+        "type": "xsd:integer",
+        "@value": "50"
+      }
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample023",
+      "type": "Offer",
+      "dct:source": {
+        "uid": "http://w3c.github.io/poe/model/"
+      },
+      "obligation": "_:b27",
+      "profile": "http://example.com/odrl:profile:10"
+    }
+  ]
+}

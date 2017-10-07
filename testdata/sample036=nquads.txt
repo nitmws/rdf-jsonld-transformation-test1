@@ -1,0 +1,8 @@
+<http://odrlapi.appspot.com/samples/sample036> <http://purl.org/dc/terms/source> "victor".
+<http://odrlapi.appspot.com/samples/sample036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set>.
+<http://odrlapi.appspot.com/samples/sample036> <http://www.w3.org/ns/odrl/2/prohibition> <http://odrlapi.appspot.com/samples/proh000>.
+<http://odrlapi.appspot.com/samples/proh000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Prohibition>.
+_:b54 <http://www.w3.org/ns/odrl/2/target> <http://example.com/asset:9519>.
+_:b54 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+_:b54 <http://www.w3.org/ns/odrl/2/remedy> <http://odrlapi.appspot.com/samples/proh000>.
+<http://odrlapi.appspot.com/samples/proh000> <http://www.w3.org/ns/odrl/2/prohibition> _:b54.

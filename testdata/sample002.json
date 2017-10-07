@@ -1,0 +1,8 @@
+[
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample002",
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Policy"
+    ]
+  }
+]

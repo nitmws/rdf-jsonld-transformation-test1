@@ -2,41 +2,38 @@
   "@context": "http://www.w3.org/ns/odrl.jsonld",
   "@graph": [
     {
-      "uid": "_:b0",
-      "action": "odrl:DELETE",
-      "consequence": "_:b1",
+      "uid": "_:b116",
+      "action": "delete",
+      "consequence": "_:b117",
       "target": "http://example.com/document:XZY"
     },
     {
-      "uid": "_:b1",
-      "action": "_:b2"
+      "uid": "_:b117",
+      "action": "_:b118"
     },
     {
-      "uid": "_:b2",
+      "uid": "_:b118",
       "rdf:value": {
         "uid": "odrl:compensate"
       },
       "compensatedParty": "http://wwf.org",
-      "refinement": "_:b3"
+      "refinement": "_:b119"
     },
     {
-      "uid": "_:b3",
+      "uid": "_:b119",
       "leftOperand": "payAmount",
       "operator": "eq",
-      "rightOperand": {
-        "type": "xsd:decimal",
-        "@value": "10.00"
-      },
       "unit": {
         "uid": "http://dbpedia.org/resource/Euro"
       }
     },
     {
-      "uid": "http://odrlapi.appspot.com/samples/sample069x",
+      "uid": "http://odrlapi.appspot.com/samples/sample069",
       "type": "Agreement",
+      "dct:source": "victor",
       "assignee": "http://example.com/person:44",
       "assigner": "http://example.com/org:43",
-      "obligation": "_:b0",
+      "obligation": "_:b116",
       "profile": "http://example.com/odrl:profile:09"
     }
   ]

@@ -1,0 +1,39 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b78",
+      "action": "reviewPolicy"
+    },
+    {
+      "uid": "_:b79",
+      "action": "display",
+      "assigner": "http://example.com/asset:555"
+    },
+    {
+      "uid": "_:b80",
+      "action": "print",
+      "assigner": "http://example.com/asset:555"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample048",
+      "type": "Policy",
+      "dct:source": "victor",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/sample048b",
+      "obligation": "_:b78",
+      "target": "http://example.com/asset:terms-and-conditions"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample048b",
+      "type": "Policy",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/sample048c",
+      "permission": "_:b79"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample048c",
+      "type": "Policy",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/sample048",
+      "permission": "_:b80"
+    }
+  ]
+}

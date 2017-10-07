@@ -1,0 +1,11 @@
+<http://odrlapi.appspot.com/samples/sample026> <http://purl.org/dc/terms/source> <http://w3c.github.io/poe/model/>.
+<http://odrlapi.appspot.com/samples/sample026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Offer>.
+<http://odrlapi.appspot.com/samples/sample026> <http://www.w3.org/ns/odrl/2/profile> <http://example.com/odrl:profile:10>.
+_:b36 <http://www.w3.org/ns/odrl/2/target> <http://example.com/document:1234>.
+_:b36 <http://www.w3.org/ns/odrl/2/assigner> <http://example.com/org:616>.
+_:b36 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/distribute>.
+_:b37 <http://www.w3.org/ns/odrl/2/leftOperand> <http://www.w3.org/ns/odrl/2/dateTime>.
+_:b37 <http://www.w3.org/ns/odrl/2/operator> <http://www.w3.org/ns/odrl/2/lt>.
+_:b37 <http://www.w3.org/ns/odrl/2/rightOperand> "2018-01-01".
+_:b36 <http://www.w3.org/ns/odrl/2/constraint> _:b37.
+<http://odrlapi.appspot.com/samples/sample026> <http://www.w3.org/ns/odrl/2/permission> _:b36.

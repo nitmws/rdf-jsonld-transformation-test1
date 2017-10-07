@@ -1,0 +1,82 @@
+[
+  {
+    "@id": "_:b33",
+    "http://www.w3.org/ns/odrl/2/target": [
+      {
+        "@id": "http://example.com/data:77"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assigner": [
+      {
+        "@id": "http://example.com/org:99"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/assignee": [
+      {
+        "@id": "http://example.com/person:88"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/distribute"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/duty": [
+      {
+        "@id": "_:b34"
+      }
+    ]
+  },
+  {
+    "@id": "_:b34",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/attribute"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/attributedParty": [
+      {
+        "@value": "Australia"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/consequence": [
+      {
+        "@id": "_:b35"
+      }
+    ]
+  },
+  {
+    "@id": "_:b35",
+    "http://www.w3.org/ns/odrl/2/action": [
+      {
+        "@id": "http://www.w3.org/ns/odrl/2/acceptTracking"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/trakingParty": [
+      {
+        "@id": "http://example.com/dept:100"
+      }
+    ]
+  },
+  {
+    "@id": "http://odrlapi.appspot.com/samples/sample025",
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://w3c.github.io/poe/model/"
+      }
+    ],
+    "@type": [
+      "http://www.w3.org/ns/odrl/2/Agreement"
+    ],
+    "http://www.w3.org/ns/odrl/2/profile": [
+      {
+        "@id": "http://example.com/odrl:profile:09"
+      }
+    ],
+    "http://www.w3.org/ns/odrl/2/permission": [
+      {
+        "@id": "_:b33"
+      }
+    ]
+  }
+]

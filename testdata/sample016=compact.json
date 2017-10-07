@@ -1,0 +1,26 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b14",
+      "type": "Permission",
+      "action": "reproduce",
+      "target": "http://example.com/asset:9898"
+    },
+    {
+      "uid": "_:b15",
+      "type": "Prohibition",
+      "action": "modify",
+      "target": "http://example.com/asset:9898"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample016",
+      "type": "Policy",
+      "dct:source": {
+        "uid": "https://github.com/simonstey/ODRL-SHACL-Shapes/wiki/3.1-Policy"
+      },
+      "permission": "_:b14",
+      "prohibition": "_:b15"
+    }
+  ]
+}

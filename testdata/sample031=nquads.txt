@@ -1,0 +1,5 @@
+<http://odrlapi.appspot.com/samples/sample031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Set>.
+<http://odrlapi.appspot.com/samples/sample031> <http://purl.org/dc/terms/source> "victor".
+_:b46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Permission>.
+_:b46 <http://www.w3.org/ns/odrl/2/action> <http://www.w3.org/ns/odrl/2/reproduce>.
+<http://odrlapi.appspot.com/samples/sample031> <http://www.w3.org/ns/odrl/2/permission> _:b46.

@@ -1,0 +1,17 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b81",
+      "action": "reviewPolicy"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/sample050",
+      "type": "Policy",
+      "dct:source": "victor",
+      "odrl:inheritFrom": "literal",
+      "obligation": "_:b81",
+      "target": "http://example.com/asset:terms-and-conditions"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://www.w3.org/ns/odrl.jsonld",
+  "@graph": [
+    {
+      "uid": "_:b70",
+      "action": "reviewPolicy"
+    },
+    {
+      "uid": "_:b71",
+      "action": "display",
+      "assignee": "http://example.com/assigneeB",
+      "target": "http://example.com/asset:8623"
+    },
+    {
+      "uid": "_:b72",
+      "action": "print",
+      "target": "http://example.com/asset:8623"
+    },
+    {
+      "uid": "_:b73",
+      "action": "reproduce",
+      "target": "http://example.com/asset:8623"
+    },
+    {
+      "uid": "_:b74",
+      "action": "anonymize",
+      "target": "http://example.com/asset:8623"
+    },
+    {
+      "uid": "_:b75",
+      "action": "execute",
+      "target": "http://example.com/asset:8623"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyA",
+      "type": "Policy",
+      "dct:source": "victor",
+      "assigner": "http://example.com/org-01",
+      "obligation": "_:b70",
+      "target": "http://example.com/asset:terms-and-conditions"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyB",
+      "type": "Policy",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/policyA",
+      "permission": "_:b71"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyC",
+      "type": "Policy",
+      "inheritFrom": "http://odrlapi.appspot.com/samples/policyB",
+      "permission": "_:b72"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyD",
+      "type": "Policy",
+      "inheritFrom": [
+        "http://odrlapi.appspot.com/samples/policyE",
+        "http://odrlapi.appspot.com/samples/policyB"
+      ],
+      "permission": "_:b73"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyE",
+      "type": "Policy",
+      "permission": "_:b74"
+    },
+    {
+      "uid": "http://odrlapi.appspot.com/samples/policyF",
+      "type": "Policy",
+      "permission": "_:b75"
+    }
+  ]
+}
