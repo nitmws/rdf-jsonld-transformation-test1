@@ -1,0 +1,16 @@
+{
+  "uid": "http://odrlapi.appspot.com/samples/sample033",
+  "type": "Set",
+  "dct:source": "victor",
+  "permission": {
+    "uid": "_:b47",
+    "action": "reproduce",
+    "target": "http://odrlapi.appspot.com/samples/asset000"
+  },
+  "prohibition": {
+    "uid": "_:b48",
+    "action": "reproduce",
+    "target": "http://odrlapi.appspot.com/samples/asset000"
+  },
+  "@context": "http://www.w3.org/ns/odrl.jsonld"
+}

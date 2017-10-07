@@ -1,0 +1,26 @@
+{
+  "uid": "http://odrlapi.appspot.com/samples/sample066",
+  "type": "Agreement",
+  "dct:source": "victor",
+  "permission": {
+    "uid": "_:b106",
+    "assignee": {
+      "uid": "_:b107",
+      "type": "PartyCollection",
+      "action": "display",
+      "refinement": {
+        "uid": "_:b108",
+        "leftOperand": "foaf:age",
+        "operator": "gt",
+        "rightOperand": {
+          "type": "xsd:integer",
+          "@value": "17"
+        }
+      }
+    },
+    "assigner": "http://example.com/user44",
+    "target": "http://example.com/myPhotos:BdayParty"
+  },
+  "profile": "http://example.com/odrl:profile:12",
+  "@context": "http://www.w3.org/ns/odrl.jsonld"
+}
